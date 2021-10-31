@@ -34,9 +34,9 @@ body {
 }
 
 form {
-  max-width: 300px;
-  margin: 10px auto;
-  padding: 10px 20px;
+  max-width: 459px;
+  margin: auto;
+  padding:25px 30px;
   background: #f4f7f8;
   border-radius: 8px;
 }
@@ -58,33 +58,24 @@ input[type="time"],
 input[type="url"],
 textarea,
 select {
-  background: rgba(255,255,255,0.1);
+  background: rgba(260,200,255,0.1);
   border: none;
-  font-size: 16px;
-  height: auto;
+  font-size: 10px;
+  height: 20;
   margin: 0;
   outline: 0;
-  padding: 15px;
+  padding: 20px;
   width: 100%;
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 0 4px 8px 0;
-}
 
-select {
-  padding: 6px;
-  height: 32px;
-  border-radius: 2px;
-}
 
 button1 {
-  padding: 19px 39px 18px 39px;
+  padding: 20px 35px 20px 39px;
   color: #FFF;
   background-color: #4bc970;
   font-size: 18px;
@@ -95,7 +86,7 @@ button1 {
   border: 1px solid #3ac162;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 button2 {
   padding: 2px 2px 2px 2px;
@@ -104,51 +95,33 @@ button2 {
   font-size: 25px;
   text-align: center;
   font-style: normal;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
   border: 1px solid #3ac162;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 fieldset {
   margin-bottom: 30px;
+  margin-top: 1px;
   border: none;
 }
 
 legend {
   font-size: 1.4em;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 25px;
 }
 
 label.light {
-  font-weight: 300;
+  font-weight: 400;
   display: inline;
 }
 
-.number {
-  background-color: #5fcf80;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  font-size: 0.8em;
-  margin-right: 4px;
-  line-height: 30px;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-  border-radius: 100%;
-}
-
-@media screen and (min-width: 480px) {
-
-  form {
-    max-width: 480px;
-  }
 
 }
