@@ -82,22 +82,14 @@ button {
   margin-bottom: 5px;
 }
 
-.text-center {
-  text-align: center;
-  padding: auto;
-  color: #FFF;
-  background-color: #4bc970;
-  font-size: 10px;
-  text-align: center;
-  width: 20%;
-  border: 1px solid black;
-  border-width: 2px 2px 2px;
-
+fieldset{
+  border:m
 }
- 
+  
 
 
-}
+
+
 legend {
   font-size: 1.4em;
   margin-bottom: 20px;
