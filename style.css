@@ -89,17 +89,20 @@ button {
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 5px;
 }
-button123 {
-  padding: 2px 2px 2px 2px;
+
+.text-center {
+  text-align: center;
+  padding: auto;
   color: #FFF;
   background-color: #4bc970;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
-  font-style: normal;
-  width: 100%;
-  border: 1px solid yellow;
-  border-width: 5px 20px 5px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  width: 35%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+
+}
+
 }
 fieldset {
   margin-bottom: 30px;
@@ -118,7 +121,6 @@ label {
   display: block;
   margin-bottom: 20px;
 }
-
 
 
 
