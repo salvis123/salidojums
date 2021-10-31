@@ -4,18 +4,21 @@ box-sizing: border-box;
 width: 1200px;
 margin: auto;
 height: 150px;
-border: solid black 3px;
-padding: 5px;
+border: solid black 9px;
+padding:auto;
 
 }
 
-
+h1 {
+  color:#E0FF3C;
+  text-shadow: #2A3D4E 1px 1px,#2A3D4E -0px 0px,#2A3D4E -1px 1px,#2A3D4E -2px 2px,#2A3D4E -3px 3px,#2A3D4E -4px 4px,#2A3D4E -5px 5px,#2A3D4E -6px 6px,#2A3D4E -7px 7px,#2A3D4E -8px 8px,#2A3D4E -9px 9px;
+}
 body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
   text-align: center;
-  background-image: url("https://cdn.glitch.me/0ae94495-3c5b-4e13-ac21-02ffed287dcb%2F131232131.jpg?v=1635705368067");
+  background-image: url("https://cdn.glitch.me/0ae94495-3c5b-4e13-ac21-02ffed287dcb%2Fgdg.jpg?v=1635705509789");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;>
