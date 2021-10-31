@@ -89,31 +89,24 @@ button {
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 5px;
 }
-button1234 {
+button123 {
   padding: 2px 2px 2px 2px;
   color: #FFF;
   background-color: #4bc970;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   font-style: normal;
-  border-radius: 10px;
   width: 100%;
-  border: 1px solid #3ac162;
-  border-width: 1px 1px 3px;
+  border: 1px solid yellow;
+  border-width: 5px 20px 5px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-  margin-bottom: 5px;
 }
 fieldset {
   margin-bottom: 30px;
   margin-top: 40px;
-  border: solid;
+  border: none;
 }
-fieldset123 {
-  width: 1000px;
-  margin-top: 2000px;
-  border: solid 2px green;
-}
-  
+
 
 }
 legend {
