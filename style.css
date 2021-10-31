@@ -5,7 +5,7 @@ width: 1200px;
 margin: auto;
 height: 125px;
 border: solid green 12px;
-padding:40px;
+padding:auto;
 background:color white;
 
 }
@@ -56,7 +56,7 @@ input[type="vecums"],
 input[type="search"],
 input[type="Ē-pasts"],
 input[type="time"],
-input[type="url"],
+input[type="pieteikties"],
 textarea,
 select {
   background: rgba(260,200,255,0.1);
@@ -75,7 +75,7 @@ select {
 
 
 
-button1 {
+button {
   padding: 20px 35px 20px 39px;
   color: #FFF;
   background-color: #4bc970;
@@ -89,7 +89,7 @@ button1 {
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 5px;
 }
-button2 {
+button123 {
   padding: 2px 2px 2px 2px;
   color: #FFF;
   background-color: #4bc970;
@@ -108,7 +108,15 @@ fieldset {
   margin-top: 40px;
   border: none;
 }
+fieldset {
+  border:100px;
+  border-color:black;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  
+  
 
+}
 legend {
   font-size: 1.4em;
   margin-bottom: 20px;
