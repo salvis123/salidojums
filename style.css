@@ -1,14 +1,5 @@
 
-html {
-box-sizing: border-box;
-width: 1200px;
-margin: auto;
-height: 125px;
-border: solid green 12px;
-padding:auto;
 
-
-}
 
 
   h2 {
@@ -16,6 +7,7 @@ padding:auto;
   text-shadow: #2A3D4E 1px 1px,#2A3D4E -0px 0px,#2A3D4E -1px 1px,#2A3D4E -2px 2px,#2A3D4E -3px 3px,#2A3D4E -4px 4px,#2A3D4E -5px 5px,#2A3D4E -6px 6px,#2A3D4E -7px 7px,#2A3D4E -8px 8px,#2A3D4E -9px 9px;
   text-align: center;
   font-family: sans-serif;
+  font-size: 50px;
 }
 body {
   background-image: url("https://cdn.glitch.me/0ae94495-3c5b-4e13-ac21-02ffed287dcb%2Fgdg.jpg?v=1635705509789");
@@ -97,18 +89,12 @@ button {
   background-color: #4bc970;
   font-size: 10px;
   text-align: center;
-  width: 35%;
-  border: 1px solid #3ac162;
-  border-width: 1px 1px 3px;
+  width: 20%;
+  border: 1px solid black;
+  border-width: 2px 2px 2px;
 
 }
-
-}
-fieldset {
-  margin-bottom: 30px;
-  margin-top: 40px;
-  border: none;
-}
+ 
 
 
 }
@@ -121,7 +107,6 @@ label {
   display: block;
   margin-bottom: 20px;
 }
-
 
 
 
