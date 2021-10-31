@@ -3,9 +3,10 @@ html {
 box-sizing: border-box;
 width: 1200px;
 margin: auto;
-height: 150px;
-border: solid black 9px;
-padding:auto;
+height: 125px;
+border: solid green 12px;
+padding:40px;
+background:color white;
 
 }
 
@@ -34,9 +35,9 @@ body {
 }
 
 form {
-  max-width: 459px;
+  max-width: 500px;
   margin: auto;
-  padding:25px 30px;
+  padding:40px 25px;
   background: #f4f7f8;
   border-radius: 8px;
 }
@@ -61,7 +62,7 @@ select {
   background: rgba(260,200,255,0.1);
   border: none;
   font-size: 10px;
-  height: 20;
+  height: 25px;
   margin: 0;
   outline: 0;
   padding: 20px;
@@ -104,24 +105,21 @@ button2 {
 }
 fieldset {
   margin-bottom: 30px;
-  margin-top: 1px;
+  margin-top: 40px;
   border: none;
 }
 
 legend {
   font-size: 1.4em;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 label {
   display: block;
-  margin-bottom: 25px;
-}
-
-label.light {
-  font-weight: 400;
-  display: inline;
+  margin-bottom: 20px;
 }
 
 
-}
+
+
+
