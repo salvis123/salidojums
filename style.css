@@ -6,7 +6,7 @@ margin: auto;
 height: 125px;
 border: solid green 12px;
 padding:auto;
-background:color white;
+
 
 }
 
@@ -89,7 +89,7 @@ button {
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 5px;
 }
-button123 {
+button1234 {
   padding: 2px 2px 2px 2px;
   color: #FFF;
   background-color: #4bc970;
@@ -106,14 +106,13 @@ button123 {
 fieldset {
   margin-bottom: 30px;
   margin-top: 40px;
-  border: none;
+  border: solid;
 }
-fieldset {
-  border:100px;
-  border-color:black;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  
+fieldset123 {
+  width: 1000px;
+  margin-top: 2000px;
+  border: solid 2px green;
+}
   
 
 }
