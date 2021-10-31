@@ -3,7 +3,7 @@
 /* default to border-box */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 *, *:before, *:after {
@@ -16,9 +16,14 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   text-align: center;
-  background-image: url("https://cdn.glitch.me/0ae94495-3c5b-4e13-ac21-02ffed287dcb%2F13123.jpg?v=1635703595250");background-repeat:no-repeat;>
-  \
-  200px;border:3px solid black;"
+  background-image: url("https://cdn.glitch.me/0ae94495-3c5b-4e13-ac21-02ffed287dcb%2F13123.jpg?v=1635703595250");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;>
+  
+  200px;border:solid black;
+
+  
 }
 
 
