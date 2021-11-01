@@ -10,7 +10,7 @@
   font-size: 50px;
 }
 body {
-  background-image: url("https://cdn.glitch.me/0ae94495-3c5b-4e13-ac21-02ffed287dcb%2Fgdg.jpg?v=1635705509789");
+  background-image: url("https://cdn.glitch.me/0ae94495-3c5b-4e13-ac21-02ffed287dcb%2F12312312312312312.jpg?v=1635756507557");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;>
@@ -41,13 +41,10 @@ h1 {
 
 input[type="text"],
 input[type="parole"],
-input[type="date"],
-input[type="datetime"],
 input[type="uzvārds"],
 input[type="vecums"],
 input[type="search"],
 input[type="Ē-pasts"],
-input[type="time"],
 input[type="pieteikties"],
 textarea,
 select {
@@ -81,7 +78,8 @@ select {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  inline:auto;
+
+  
   
 }
 
@@ -111,9 +109,6 @@ fieldset {
    border:0 none;
 }
   
-form div {margin-bottomL 10px;}
-input, label{cursor:pointer;}
-form input[type="radio"] {float:left;width: 20px;margin: right 10px;}
 
 
 
