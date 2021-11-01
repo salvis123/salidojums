@@ -20,6 +20,7 @@ body {
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
+  font-size: eq10px
 }
 
 form {
@@ -117,7 +118,3 @@ legend {
   font-size: 1.4em;
   margin-bottom: 20px;
 }
-
-
-
-
