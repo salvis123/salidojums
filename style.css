@@ -76,8 +76,6 @@ select {
 margin: 0 auto; 
   width: auto; 
   text-align: center;
-  
-  
 }
 
 .button:hover {
@@ -101,19 +99,25 @@ margin: 0 auto;
   font-size: 1.5em;
   background: rgba(0, 0, 0, 0.08);
 }
-
 fieldset {
    border:0 none;
 }
-  
 label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
 }
-
 legend {
   font-size: 10em;
   margin-bottom: 20px;
 }
-
-<div style="margin: 0 auto; width: 656px; text-align: center;">
+.container {
+   display: flex;
+   flex - direction: row;
+   flex - wrap: wrap;
+   width: auto ;
+   margin - left: auto;
+   margin - right: auto;
+  justify-content: center;
+  align-items: center;
+  
+}
