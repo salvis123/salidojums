@@ -112,7 +112,8 @@ fieldset {
 }
   
 form div {margin-bottomL 10px;}
-
+input, label{cursor:pointer;}
+form input[type="radio"] {float:left;width: 20px;margin: right 10px;}
 
 
 
