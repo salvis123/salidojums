@@ -59,31 +59,26 @@
           
    
           <label for="Vārds">Vārds:</label>
-          <input type="text" id="Vārds" name="Vārds">
+          <input type="text" id="Vārds" name="Vārds"onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" required>
           
           <label for="Uzvārds">Uzvārds:</label>
-          <input type="Uzvārds" id="Uzvārds" name="Uzvārds">
+          <input type="text" id="Uzvārds" name="Uzvārds"onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" required>
           
           <label for="Vecums">Vecums:</label>
           <input type="number" id="Vecums" name="Vecums"
-       min="10" max="100">
+       min="18" max="99"required>
 
           
           <br>
           <label for="Ē-pasts">Ē-pasts:</label>
-          <input type="Ē-pasts" id="Ē-pasts" name="Ē-pasts">
+          <input type="text" id="Ē-pasts" name="Ē-pasts"required>
           <p>
             Dzimums:
           </p>
         
-           <input type="radio" id="Virietis" name="Dzimums" value="Virietis">
-  <label for="Virietis">Virietis</label>
-            
-  <input type="radio" id="Sieviete" name="Dzimums" value="Sieviete">
-  <label for="Sieviete">Sieviete</label>
-            
-  <input type="radio" id="Cits" name="Dzimums" value="Cits">
-  <label for="Cits">Cits</label>
+<input type="radio" name="gender" value="male"> Viretis<br>
+<input type="radio" name="gender" value="female"> Sieviete<br>
+<input type="radio" name="gender" value="other"> Cits<br>
           <br>
           <br>
         </fieldset>

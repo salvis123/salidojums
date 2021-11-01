@@ -36,11 +36,9 @@ h1 {
 }
 
 input[type="text"],
-input[type="parole"],
-input[type="uzvārds"],
+input[type="Uzvārds"],
 input[type="number"],
 input[type="search"],
-input[type="Ē-pasts"],
 input[type="pieteikties"],
 textarea,
 select {
