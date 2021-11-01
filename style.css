@@ -1,8 +1,4 @@
-
-
-
-htm
-  h2 {
+h2 {
   color:#E0FF3C;
   text-shadow: #2A3D4E 1px 1px,#2A3D4E -0px 0px,#2A3D4E -1px 1px,#2A3D4E -2px 2px,#2A3D4E -3px 3px,#2A3D4E -4px 4px,#2A3D4E -5px 5px,#2A3D4E -6px 6px,#2A3D4E -7px 7px,#2A3D4E -8px 8px,#2A3D4E -9px 9px;
   text-align: center;
@@ -42,7 +38,7 @@ h1 {
 input[type="text"],
 input[type="parole"],
 input[type="uzvārds"],
-input[type="vecums"],
+input[type="number"],
 input[type="search"],
 input[type="Ē-pasts"],
 input[type="pieteikties"],
@@ -111,6 +107,11 @@ fieldset {
    border:0 none;
 }
   
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
 
 
 
