@@ -106,15 +106,14 @@ fieldset {
    border:0 none;
 }
   
-
 label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-
-
 legend {
-  font-size: 1.4em;
+  font-size: 10em;
   margin-bottom: 20px;
 }
+
+<div style="margin: 0 auto; width: 656px; text-align: center;">
