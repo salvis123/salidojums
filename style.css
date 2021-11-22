@@ -113,14 +113,14 @@ legend {
 }
 .container {
    display: flex;
-   flex - direction: row;
-   flex - wrap: wrap;
    width: auto ;
    margin - left: auto;
    margin - right: auto;
   justify-content: center;
 
 }
-iframe {
-  justify-content: center;
+.video   {
+width: 70%; /*or whatever % you prefer*/
+    margin: 0 auto;
+    display: block;
 }
