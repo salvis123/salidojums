@@ -122,7 +122,9 @@ legend {
   align-items: center;
 
 }
-div.video {
-  text-align: center;
-text-align:center
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+  
 }
