@@ -1,9 +1,12 @@
-<html>
-<body>
-
-<?php echo $_GET["name"]; ?><br>
-<?php echo $_GET["email"]; ?><br>
-<?php echo $_GET["number"]; ?><br>
-<?php echo $_GET["gender"]; ?><br>
-</body>
-</html>
+<?php
+if(isset($_POST['submit'])){
+$firstName = "firstname:".$_POST['firstName']."
+";
+$lastName = "lastname:".$_POST['lastName']."
+";
+$file=fopen("file.txt", "a");
+fwrite($file, $firstName);
+fwrite($file, $lastName);
+fclose($file);
+}
+?>
