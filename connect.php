@@ -1,10 +1,12 @@
-< ? php
-
-if (isset($_POST['firstname'])) {
-   $data = $_POST['firstname'];
-
-   $fp = fopen('data.txt', 'a');
-   fwrite($fp, $data);
-   fclose($fp);
-} ?
->
+<?php
+if(isset($_POST['submit'])){
+$firstName = "firstName:".$_POST['firstName']."
+";
+$lastName = "lastName:".$_POST['lastName']."
+";
+$file=fopen("file.txt", "a");
+fwrite($file, $firstName);
+fwrite($file, $lastName);
+fclose($file);
+}
+?>
