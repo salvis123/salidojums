@@ -1,15 +1,10 @@
-<?php
+< ? php
 
-if(isset($_POST["submit"]))  //check submit button is pressed
-{
+if (isset($_POST['firstname'])) {
+   $data = $_POST['firstname'];
 
-$name = $_POST["name"];  // get name from URL
-
-echo($name);  //Print Name
-
-$file = Fopen("db.txt","a+"); //create a file if not exists
-
-fwrite($file,"\n".$name); // fwrite(file_object, data to store);
-
-}
-?>
+   $fp = fopen('data.txt', 'a');
+   fwrite($fp, $data);
+   fclose($fp);
+} ?
+>
