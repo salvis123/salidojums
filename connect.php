@@ -1,12 +1,12 @@
-<?php
-if(isset($_POST['submit'])){
-$firstName = "firstName:".$_POST['firstName']."
-";
-$lastName = "lastName:".$_POST['lastName']."
-";
-$file=fopen("file.txt", "a");
-fwrite($file, $firstName);
-fwrite($file, $lastName);
-fclose($file);
-}
-?>
+<html>
+<body>
+
+<?php echo $_POST["firstname"]; ?><br>
+<?php echo $_POST["email"]; ?> <br>
+<?php echo $_POST["number"]; ?> <br>
+
+
+  
+
+</body>
+</html>
