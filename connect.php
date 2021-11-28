@@ -1,5 +1,12 @@
+<html>
+  <body>
+    
+
 <?php
-error_reporting(E_ALL);
+$fname = htmlspecialchars($fname);
 ?>
-Hi <?php $fname = htmlspecialchars( $fname ); echo $_POST['firstname']; ?>.
-You are <?php echo $_POST['age']; ?> years old.
+
+Welcome <?php echo $_POST["firstname"]; ?>!<br>
+You are <?php echo (int)$_POST['age']; ?> years old.
+    </body>
+</html>
