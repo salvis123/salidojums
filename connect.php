@@ -6,8 +6,7 @@
 $firstname = htmlspecialchars($firstname);
 ?>
 
-Labdien, <?php echo $_GET["firstname"]; ?>!<br>
-Tu esi <?php echo (int)$_GET['age']; ?> gadus jauns.
+<?php echo "hello"; ?> 
 
     </body>
 </html>
