@@ -139,3 +139,8 @@ width: 70%; /*or whatever % you prefer*/
     margin: 0 auto;
     display: block;
 }
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
