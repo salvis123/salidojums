@@ -3,10 +3,11 @@
     
 
 <?php
-$fname = htmlspecialchars($fname);
+$firstname = htmlspecialchars($firstname);
 ?>
 
-Welcome <?php echo $_POST["firstname"]; ?>!<br>
-You are <?php echo (int)$_POST['age']; ?> years old.
+Labdien, <?php echo $_GET["firstname"]; ?>!<br>
+Tu esi <?php echo (int)$_GET['age']; ?> gadus jauns.
+
     </body>
 </html>
