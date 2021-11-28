@@ -92,14 +92,7 @@ margin: 0 auto;
     border: none;
     cursor:pointer;
     overflow: hidden; 
-  text-decoration: none;
 }
-
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-
 
 .button:hover {
   background: #008168;
@@ -142,7 +135,7 @@ legend {
 
 }
 .video   {
-width: 70%; 
+width: 70%; /*or whatever % you prefer*/
     margin: 0 auto;
     display: block;
 }
