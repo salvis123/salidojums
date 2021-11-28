@@ -37,7 +37,12 @@ h1 {
   
 }
 
-
+input[type="text"],
+input[type="Uzvārds"],
+input[type="number"],
+input[type="search"],
+input[type="pieteikties"],
+input[type="submit"],
 textarea,
 select {
   background: rgba(260,200,255,0.1);
