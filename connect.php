@@ -3,10 +3,10 @@
     
 
 <?php
-$firstname = htmlspecialchars($firstname);
+error_reporting(E_ALL);
 ?>
-
-<?php echo "hello"; ?> 
+Hi <?php echo $_POST['firstname']; ?>.
+You are <?php echo $_POST['age']; ?> years old.
 
     </body>
 </html>
