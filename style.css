@@ -142,7 +142,7 @@ legend {
 
 }
 .video   {
-width: 70%; /*or whatever % you prefer*/
+width: 70%; 
     margin: 0 auto;
     display: block;
 }
